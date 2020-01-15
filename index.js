@@ -5,15 +5,15 @@
 //     console.log(btnAllNumbrs.value);
 // });
 
-// это работет но совсем не правильно___________________________
-// const presseBtn = document.getElementById("btnAllNumbrs");
-// addEventListener("click", function (){
-//     let div = document.createElement("div");
-//     div.innerHTML = presseBtn.value;
-//     document.getElementById('disp').append(presseBtn);
-//     console.log(presseBtn.value);
-// });
-// __________________________
+это работет но совсем не правильно___________________________
+const presseBtn = document.getElementById("btnAllNumbrs");
+addEventListener("click", function (){
+    let div = document.createElement("div");
+    div.innerHTML = presseBtn.value;
+    document.getElementById('disp').append(presseBtn);
+    console.log(presseBtn.value);
+});
+__________________________
 const presseBtn = document.querySelectorAll('.numbers');
 
 
