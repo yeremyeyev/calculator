@@ -1,0 +1,25 @@
+.container {
+  height: 550px;
+  width: 350px;
+  background: rgb(132, 138, 138);
+  margin: 5px 5px;
+  padding: 10px;
+}
+.display {
+  height: 50px;
+  width: 335px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px;
+  border: 2px solid black;
+  /* padding-bottom: 5px; */
+}
+.line {
+  height: 50px;
+  width: 335px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 auto;
+}
